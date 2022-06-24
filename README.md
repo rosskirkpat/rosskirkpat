@@ -1,6 +1,6 @@
 ## Hello!
 
-My name is Ross Kirkpatrick. I like dogs, open source, and tech. 
+My name is Ross Kirkpatrick. I like dogs, open source, and tech. This is a :construction: zone.
 
 ## Where I virtually live
 
