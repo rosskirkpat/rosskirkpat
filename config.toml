@@ -1,2 +1,105 @@
+##########################################
+# Site Settings
+
+baseURL = "https://rosskirkpat.com"
+title = "Ross Kirkpatrick"
 languageCode = "en-us"
-title = "My New Netlify Victor Hugo Site"
+copyright = ""
+
+theme = "minimo"
+
+Paginate = 10
+preserveTaxonomyNames = true
+
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+pygmentsStyle = "tango"
+
+enableEmoji = false
+enableGitInfo = false
+
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[params.info]
+description = ""
+title404 = "Nothing's here!"
+
+[params.copyright]
+prefix = "Copyright"
+holder = "by Ross Kirkpatrick"
+startYear = "2022"
+suffix = "The opinions expressed herein are my own and do not represent those of my employer or any other third-party views in any way. This work is licensed under a Creative Commons Attribution 4.0 International License."
+
+[params.assets]
+customCSS = ["css/custom.css"]
+gopher = "gopher.png"
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "2006-01-02"
+listDateFormat = "2006-01-02"
+archiveDateFormat = "2006-01-02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+hideEntryMeta = ["page"] # boolean / array of sections
+showReadingTime = true
+showLastmod = true
+taxonomyCloudShuffle = true
+accentColor = "#ffcd00"
+hideMainMenu = true
+rtl = false
+
+[params.sidebar]
+enable = true
+
+[params.widgets]
+homepage = ["recent_posts"]
+sidebar = ["about", "sidebar_menu"]
+footer = ["social_menu"]
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+linkedin = "ross-kirkpatrick"
+github = "rosskirkpat"
+
+[params.comments]
+enable = false
+
+[taxonomies]
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
+# categories = "/categories/:slug/"
+# tags = "/tags/:slug/"
+
+[[menu.main]]
+name = "Buy me a coffee"
+url = "https://www.buymeacoffee.com/rosskirkpat"
+weight = -205
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = -180
+
+[blackfriday]
+hrefTargetBlank = true
+
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
+
+

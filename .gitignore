@@ -1,5 +1,24 @@
-node_modules/
-dist/
-site/data/webpack.json
-/npm-debug.log
-yarn-error.log
+[Pp]ackages/
+[Tt]ools/*
+![Tt]ools/packages.config
+[Oo]utput/
+nuget.exe
+*.zip
+node_modules
+
+# Netlify
+.netlify
+packages\.xml
+
+*.dll
+*.hash
+
+config.wyam.packages.xml
+.idea
+
+# Hugo
+/public
+.hugo_build.lock
+
+# gitpod
+core.*
